@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anik.test.ActivityStart"
+    android:background="@drawable/splash1"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/alphabet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/signature_13" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/learning"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="130dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="88dp"
+            android:src="@drawable/signature_14"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

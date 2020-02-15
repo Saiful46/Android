@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anik.test">
+
+    <supports-screens>
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+    </supports-screens>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Alphabet Learning"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".ActivityStart" />
+        <activity android:name=".ActivityRules" />
+        <activity android:name=".ActivityRead" />
+        <activity android:name=".ActivityWrite" />
+        <activity android:name=".ActivityAlphabet" />
+        <activity android:name=".ActivityWord" />
+        <activity android:name=".ActivityB" />
+        <activity android:name=".ActivityC" />
+        <activity android:name=".ActivityD" />
+        <activity android:name=".ActivityE" />
+        <activity android:name=".ActivityF" />
+        <activity android:name=".ActivityG" />
+        <activity android:name=".ActivityH" />
+        <activity android:name=".ActivityI" />
+        <activity android:name=".ActivityJ" />
+        <activity android:name=".ActivityK" />
+        <activity android:name=".ActivityL" />
+        <activity android:name=".ActivityBall" />
+        <activity android:name=".ActivityCat" />
+        <activity android:name=".ActivityCompleted" />
+        <activity android:name=".ActivityAlphabetW" />
+        <activity android:name=".ActivityWordW" />
+        <activity android:name=".ActivityM" />
+        <activity android:name=".ActivityN" />
+        <activity android:name=".ActivityO" />
+        <activity android:name=".ActivityP" />
+        <activity android:name=".ActivityQ" />
+        <activity android:name=".ActivityR" />
+        <activity android:name=".ActivityS" />
+        <activity android:name=".ActivityT" />
+        <activity android:name=".ActivityU" />
+        <activity android:name=".ActivityV" />
+        <activity android:name=".ActivityW" />
+        <activity android:name=".ActivityWaiting" />
+        <activity android:name=".ActivityX" />
+        <activity android:name=".ActivityY" />
+        <activity android:name=".ActivityZ" />
+        <activity android:name=".ActivityWaitingB" />
+        <activity android:name=".ActivityWaitingC" />
+        <activity android:name=".ActivityWaitingD" />
+        <activity android:name=".ActivityWaitingE" />
+        <activity android:name=".ActivityWaitingF" />
+        <activity android:name=".ActivityWaitingG" />
+        <activity android:name=".ActivityWaitingH" />
+        <activity android:name=".ActivityWaitingI" />
+        <activity android:name=".ActivityWaitingJ" />
+        <activity android:name=".ActivityWaitingK" />
+        <activity android:name=".ActivityWaitingL" />
+        <activity android:name=".ActivityWaitingM" />
+        <activity android:name=".ActivityWaitingN" />
+        <activity android:name=".ActivityWaitingO" />
+        <activity android:name=".ActivityWaitingP" />
+        <activity android:name=".ActivityWaitingQ" />
+        <activity android:name=".ActivityWaitingR" />
+        <activity android:name=".ActivityWaitingS" />
+        <activity android:name=".ActivityWaitingT" />
+        <activity android:name=".ActivityWaitingU" />
+        <activity android:name=".ActivityWaitingV" />
+        <activity android:name=".ActivityWaitingW" />
+        <activity android:name=".ActivityWaitingX" />
+        <activity android:name=".ActivityWaitingY" />
+        <activity android:name=".ActivityWW_A" />
+        <activity android:name=".ActivityLoad" />
+        <activity android:name=".ActivityCongrates" />
+        <activity android:name=".ActivityAgain" />
+        <activity android:name=".ActivityLoad2" />
+        <activity android:name=".ActivityWW_B" />
+        <activity android:name=".ActivityWW_C" />
+        <activity android:name=".ActivityWW_D" />
+        <activity android:name=".ActivityWW_E" />
+        <activity android:name=".ActivityWW_F" />
+        <activity android:name=".ActivityWW_G" />
+        <activity android:name=".ActivityWW_H" />
+        <activity android:name=".ActivityWW_I" />
+        <activity android:name=".ActivityWW_J" />
+        <activity android:name=".ActivityWW_K" />
+        <activity android:name=".ActivityWW_L" />
+        <activity android:name=".ActivityWW_M" />
+        <activity android:name=".ActivityWW_N" />
+        <activity android:name=".ActivityWW_O" />
+        <activity android:name=".ActivityWW_P" />
+        <activity android:name=".ActivityWW_Q" />
+        <activity android:name=".ActivityWW_R" />
+        <activity android:name=".ActivityWW_S" />
+        <activity android:name=".ActivityWW_T" />
+        <activity android:name=".ActivityWW_U" />
+        <activity android:name=".ActivityWW_V" />
+        <activity android:name=".ActivityWW_W" />
+        <activity android:name=".ActivityWW_X" />
+        <activity android:name=".ActivityWW_Y" />
+        <activity android:name=".ActivityWW_Z" />
+        <activity android:name=".ActivityScrollW" />
+        <activity android:name=".ActivityWB" />
+        <activity android:name=".ActivityWC" />
+        <activity android:name=".ActivityWD" />
+        <activity android:name=".ActivityWE" />
+        <activity android:name=".ActivityWF" />
+        <activity android:name=".ActivityWG" />
+        <activity android:name=".ActivityWH" />
+        <activity android:name=".ActivityWI" />
+        <activity android:name=".ActivityWJ" />
+        <activity android:name=".ActivityWK" />
+        <activity android:name=".ActivityWL" />
+        <activity android:name=".ActivityWM" />
+        <activity android:name=".ActivityWN" />
+        <activity android:name=".ActivityWO" />
+        <activity android:name=".ActivityWP" />
+        <activity android:name=".ActivityWQ" />
+        <activity android:name=".ActivityWR" />
+        <activity android:name=".ActivityWS" />
+        <activity android:name=".ActivityWT" />
+        <activity android:name=".ActivityWU" />
+        <activity android:name=".ActivityWV" />
+        <activity android:name=".ActivityWW" />
+        <activity android:name=".ActivityWX" />
+        <activity android:name=".ActivityWY" />
+        <activity android:name=".ActivityWZ"></activity>
+    </application>
+
+</manifest>

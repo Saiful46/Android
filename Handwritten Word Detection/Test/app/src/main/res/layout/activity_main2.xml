@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anik.test.Main2Activity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main"/>
+
+        <Button
+            android:id="@+id/Rules"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/about"
+            tools:layout_editor_absoluteX="107dp"
+            tools:layout_editor_absoluteY="251dp" />
+
+        <Button
+            android:id="@+id/Start"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/Rules"
+            android:layout_alignStart="@+id/Rules"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/start"
+            android:elevation="24dp"
+            tools:layout_editor_absoluteX="107dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff001"
+    tools:context="com.example.anik.test.ActivityWordW">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Button_A"
+                android:onClick="Button_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_A"
+                tools:ignore="OnClick" />
+            <Button
+                android:id="@+id/Button_B"
+                android:onClick="Button_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_B"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/Button_C"
+                android:onClick="Button_C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_C"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/Button_D"
+                android:onClick="Button_D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_D"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/Button_E"
+                android:onClick="Button_E"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_E"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/Button_F"
+                android:onClick="Button_F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_F"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/Button_G"
+                android:onClick="@+id/Button_G"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_G" />
+
+            <Button
+                android:id="@+id/Button_H"
+                android:onClick="@+id/Button_H"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_H" />
+
+            <Button
+                android:id="@+id/Button_I"
+                android:onClick="@+id/Button_I"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_I" />
+
+            <Button
+                android:id="@+id/Button_J"
+                android:onClick="@+id/Button_J"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_J" />
+
+            <Button
+                android:id="@+id/Button_K"
+                android:onClick="@+id/Button_K"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_K" />
+
+            <Button
+                android:id="@+id/Button_L"
+                android:onClick="@+id/Button_L"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_L" />
+
+            <Button
+                android:id="@+id/Button_M"
+                android:onClick="@+id/Button_M"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_M" />
+
+            <Button
+                android:id="@+id/Button_N"
+                android:onClick="@+id/Button_N"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_N" />
+
+            <Button
+                android:id="@+id/Button_O"
+                android:onClick="@+id/Button_O"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_O" />
+
+            <Button
+                android:id="@+id/Button_P"
+                android:onClick="@+id/Button_P"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_P" />
+            <Button
+                android:id="@+id/Button_Q"
+                android:onClick="@+id/Button_Q"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_Q" />
+            <Button
+                android:id="@+id/Button_R"
+                android:onClick="@+id/Button_R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_R" />
+            <Button
+                android:id="@+id/Button_S"
+                android:onClick="@+id/Button_S"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_S" />
+            <Button
+                android:id="@+id/Button_T"
+                android:onClick="@+id/Button_T"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_T" />
+            <Button
+                android:id="@+id/Button_U"
+                android:onClick="@+id/Button_U"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_U" />
+            <Button
+                android:id="@+id/Button_V"
+                android:onClick="@+id/Button_V"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_V" />
+
+            <Button
+                android:id="@+id/Button_W"
+                android:onClick="@+id/Button_W"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_W" />
+
+            <Button
+                android:id="@+id/Button_X"
+                android:onClick="@+id/Button_X"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_X" />
+
+            <Button
+                android:id="@+id/Button_Y"
+                android:onClick="@+id/Button_X"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_Y" />
+            <Button
+                android:id="@+id/Button_Z"
+                android:onClick="@+id/Button_Z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Word_Z" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
